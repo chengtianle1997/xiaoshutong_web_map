@@ -1,0 +1,36 @@
+---------------------------------------------------------------
+[ 2020-12-16T01:08:08+08:00 ] 0.0.0.0 GET dev-map/api/spot/getSpotInfo?id=1
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'spotarea_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-12-16T01:08:11+08:00 ] 0.0.0.0 GET dev-map/api/spot/getSpotInfo?id=2
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'spotarea_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-12-16T01:08:13+08:00 ] 0.0.0.0 GET dev-map/api/spot/getSpotInfo?id=1
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'spotarea_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-12-16T01:08:14+08:00 ] 0.0.0.0 GET dev-map/api/spot/getSpotInfo?id=1
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'spotarea_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-12-16T01:08:14+08:00 ] 0.0.0.0 GET dev-map/api/spot/getSpotInfo?id=1
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'spotarea_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-12-16T01:08:14+08:00 ] 0.0.0.0 GET dev-map/api/spot/getSpotInfo?id=1
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'spotarea_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-12-16T01:20:32+08:00 ] 0.0.0.0 GET dev-map/api/spot/getSpotInfo?id=1
+[ error ] [8]Use of undefined constant spottype_id - assumed 'spottype_id'
+---------------------------------------------------------------
+[ 2020-12-16T01:20:34+08:00 ] 0.0.0.0 GET dev-map/api/spot/getSpotInfo?id=1
+[ error ] [8]Use of undefined constant spottype_id - assumed 'spottype_id'
+---------------------------------------------------------------
+[ 2020-12-16T01:22:13+08:00 ] 0.0.0.0 GET dev-map/api/spot/getSpotInfo?id=1
+[ error ] [8]Use of undefined constant spottype_id - assumed 'spottype_id'
+---------------------------------------------------------------
+[ 2020-12-16T01:22:15+08:00 ] 0.0.0.0 GET dev-map/api/spot/getSpotInfo?id=1
+[ error ] [8]Use of undefined constant spottype_id - assumed 'spottype_id'
+---------------------------------------------------------------
+[ 2020-12-16T01:22:30+08:00 ] 0.0.0.0 GET dev-map/api/spot/getSpotInfo?id=1
+[ error ] [8]Use of undefined constant spottype_id - assumed 'spottype_id'
+---------------------------------------------------------------
+[ 2020-12-16T01:28:23+08:00 ] 0.0.0.0 GET dev-map/api/spot/getSpotInfo?id=1
+[ error ] [0]查询表达式错误:1

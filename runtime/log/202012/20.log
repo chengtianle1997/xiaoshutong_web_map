@@ -1,0 +1,183 @@
+---------------------------------------------------------------
+[ 2020-12-20T12:47:38+08:00 ] 0.0.0.0 GET dev-map/api/spot/getSpotInfo?id=1
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'map_db.fa_spotarea' doesn't exist
+---------------------------------------------------------------
+[ 2020-12-20T12:47:52+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608439672710
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'map_db.fa_spotarea' doesn't exist
+---------------------------------------------------------------
+[ 2020-12-20T12:47:54+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608439672711
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'map_db.fa_spotarea' doesn't exist
+---------------------------------------------------------------
+[ 2020-12-20T12:47:55+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608439672712
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'map_db.fa_spotarea' doesn't exist
+---------------------------------------------------------------
+[ 2020-12-20T12:47:55+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608439672713
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'map_db.fa_spotarea' doesn't exist
+---------------------------------------------------------------
+[ 2020-12-20T12:47:56+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608439672714
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'map_db.fa_spotarea' doesn't exist
+---------------------------------------------------------------
+[ 2020-12-20T12:47:56+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608439672715
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'map_db.fa_spotarea' doesn't exist
+---------------------------------------------------------------
+[ 2020-12-20T12:47:56+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608439672716
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'map_db.fa_spotarea' doesn't exist
+---------------------------------------------------------------
+[ 2020-12-20T12:48:04+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608439683982
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'map_db.fa_spotarea' doesn't exist
+---------------------------------------------------------------
+[ 2020-12-20T12:48:04+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608439672717
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'map_db.fa_spotarea' doesn't exist
+---------------------------------------------------------------
+[ 2020-12-20T12:48:15+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608439672718
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'map_db.fa_spotarea' doesn't exist
+---------------------------------------------------------------
+[ 2020-12-20T12:48:35+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608439672719
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'map_db.fa_spotarea' doesn't exist
+---------------------------------------------------------------
+[ 2020-12-20T12:48:36+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608439672720
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'map_db.fa_spotarea' doesn't exist
+---------------------------------------------------------------
+[ 2020-12-20T12:48:37+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608439672721
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'map_db.fa_spotarea' doesn't exist
+---------------------------------------------------------------
+[ 2020-12-20T12:49:09+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608439672722
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'map_db.fa_spotarea' doesn't exist
+---------------------------------------------------------------
+[ 2020-12-20T12:49:10+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608439672723
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'map_db.fa_spotarea' doesn't exist
+---------------------------------------------------------------
+[ 2020-12-20T12:49:14+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608439672724
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'map_db.fa_spotarea' doesn't exist
+---------------------------------------------------------------
+[ 2020-12-20T14:08:05+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608444485618
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'map_db.fa_spotarea' doesn't exist
+---------------------------------------------------------------
+[ 2020-12-20T14:08:07+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608444485619
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'map_db.fa_spotarea' doesn't exist
+---------------------------------------------------------------
+[ 2020-12-20T14:08:07+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608444485620
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'map_db.fa_spotarea' doesn't exist
+---------------------------------------------------------------
+[ 2020-12-20T14:08:07+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608444485621
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'map_db.fa_spotarea' doesn't exist
+---------------------------------------------------------------
+[ 2020-12-20T14:16:24+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608444983969
+[ error ] [0]致命错误: Class 'app\admin\model\Spotarea' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:28:16+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spottype/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608445602832
+[ error ] [0]致命错误: Class 'app\admin\model\Spottype' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:28:18+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spottype/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608445602833
+[ error ] [0]致命错误: Class 'app\admin\model\Spottype' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:28:18+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spottype/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608445602834
+[ error ] [0]致命错误: Class 'app\admin\model\Spottype' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:28:18+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spottype/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608445602835
+[ error ] [0]致命错误: Class 'app\admin\model\Spottype' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:28:20+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spottype/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608445602836
+[ error ] [0]致命错误: Class 'app\admin\model\Spottype' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:28:21+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spottype/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608445602837
+[ error ] [0]致命错误: Class 'app\admin\model\Spottype' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:28:24+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spottype/add?dialog=1
+[ error ] [0]致命错误: Class 'app\admin\model\Spottype' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:54:22+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608447262647
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:54:24+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608447262648
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:56:33+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608447393124
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:56:35+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608447393125
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:56:35+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608447393126
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:56:35+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608447393127
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:56:49+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608447393128
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:56:49+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608447393129
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:56:49+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608447393130
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:56:50+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608447393131
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:56:50+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608447393132
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:56:50+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608447393133
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:56:53+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608447393134
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:57:42+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608447393135
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:57:49+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608447393136
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:58:35+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608447515530
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:58:38+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608447515531
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:58:45+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608447515532
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:58:46+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608447515533
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:58:46+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608447515534
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:58:47+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608447515535
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T14:58:47+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608447515536
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T15:01:11+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608447670818
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T15:07:54+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608448074163
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T15:07:57+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608448076945
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T15:07:58+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608448077995
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T15:07:59+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608448077996
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T15:08:03+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608448077997
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T15:08:04+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608448077998
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T15:08:58+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608448077999
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T15:09:00+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608448078000
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-20T15:09:00+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spot/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1608448078001
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found

@@ -1,0 +1,152 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Areaname')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-areaname" data-rule="required" class="form-control" autocomplete="off" name="row[areaname]" type="text" value="{$row.areaname|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Areaintroduce')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-areaintroduce" data-rule="required" class="form-control " rows="5" name="row[areaintroduce]" cols="50">{$row.areaintroduce|htmlentities}</textarea>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Coverimage')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-coverimage" class="form-control" size="50" name="row[coverimage]" type="text" value="{$row.coverimage|htmlentities}">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="faupload-coverimage" class="btn btn-danger faupload" data-input-id="c-coverimage" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-coverimage"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-coverimage" class="btn btn-primary fachoose" data-input-id="c-coverimage" data-mimetype="image/*" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-coverimage"></span>
+            </div>
+            <ul class="row list-inline faupload-preview" id="p-coverimage"></ul>
+        </div>
+    </div>
+
+    <!-- <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Handimage')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-handimage" class="form-control" size="50" name="row[handimage]" type="text" value="{$row.handimage|htmlentities}">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="faupload-handimage" class="btn btn-danger faupload" data-input-id="c-handimage" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-handimage"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-handimage" class="btn btn-primary fachoose" data-input-id="c-handimage" data-mimetype="image/*" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-handimage"></span>
+            </div>
+            <ul class="row list-inline faupload-preview" id="p-handimage"></ul>
+        </div>
+    </div> -->
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Svgfile')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-svgfile" class="form-control" size="50" autocomplete="off" name="row[svgfile]" type="text" value="{$row.svgfile|htmlentities}">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="faupload-svgfile" class="btn btn-danger faupload" data-input-id="c-svgfile" data-multiple="false" data-preview-id="p-svgfile"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-svgfile" class="btn btn-primary fachoose" data-input-id="c-svgfile" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-svgfile"></span>
+            </div>
+            <ul class="row list-inline faupload-preview" id="p-svgfile"></ul>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('City')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class='control-relative'><input id="c-city" data-rule="required" class="form-control" data-toggle="city-picker" data-level="city" name="row[city]" type="text" value="{$row.city|htmlentities}"></div>
+        </div>
+    </div>
+    <!-- <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Centerlng')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-centerlng" data-rule="required" class="form-control" step="0.000000000000001" name="row[centerlng]" type="number" value="{$row.centerlng|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Centerlat')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-centerlat" data-rule="required" class="form-control" step="0.000000000000001" name="row[centerlat]" type="number" value="{$row.centerlat|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Southwestlng')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-southwestlng" data-rule="required" class="form-control" step="0.000000000000001" name="row[southwestlng]" type="number" value="{$row.southwestlng|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Southwestlat')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-southwestlat" data-rule="required" class="form-control" step="0.000000000000001" name="row[southwestlat]" type="number" value="{$row.southwestlat|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Northeastlng')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-northeastlng" data-rule="required" class="form-control" step="0.000000000000001" name="row[northeastlng]" type="number" value="{$row.northeastlng|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Northeastlat')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-northeastlat" data-rule="required" class="form-control" step="0.000000000000001" name="row[northeastlat]" type="number" value="{$row.northeastlat|htmlentities}">
+        </div>
+    </div> -->
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Centerlnglat')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-centerlnglat" class="form-control" autocomplete="off" name="row[centerlnglat]" type="text" value="{$row.centerlnglat|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Southwestlnglat')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-southwestlnglat" class="form-control" autocomplete="off" name="row[southwestlnglat]" type="text" value="{$row.southwestlnglat|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Northeastlnglat')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-northeastlnglat" class="form-control" autocomplete="off" name="row[northeastlnglat]" type="text" value="{$row.northeastlnglat|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Linkman')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-linkman" class="form-control" autocomplete="off" name="row[linkman]" type="text" value="{$row.linkman|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Linkphone')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-linkphone" class="form-control" autocomplete="off" name="row[linkphone]" type="text" value="{$row.linkphone|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Openinghours')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-openinghours" class="form-control" autocomplete="off" name="row[openinghours]" type="text" value="{$row.openinghours|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Address')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-address" class="form-control" autocomplete="off" name="row[address]" type="text" value="{$row.address|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

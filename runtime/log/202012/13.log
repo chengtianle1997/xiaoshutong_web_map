@@ -1,0 +1,90 @@
+---------------------------------------------------------------
+[ 2020-12-13T00:00:00+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T00:00:00+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T00:00:01+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T00:00:01+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T00:00:01+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T00:00:02+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T00:00:03+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T00:00:03+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T00:00:03+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T00:00:04+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T00:00:16+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T00:00:58+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T00:01:02+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T00:03:06+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T15:15:31+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T15:16:38+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T15:16:45+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/index
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T15:24:36+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spottype/selectpage
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T15:31:32+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/selectpage
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T15:31:32+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/selectpage
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T15:31:33+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/selectpage
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T15:31:33+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/selectpage
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T15:31:33+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/selectpage
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T15:31:38+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/selectpage
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T15:31:38+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/selectpage
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T15:31:39+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/selectpage
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T15:31:39+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/selectpage
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T15:31:46+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spotarea/selectpage
+[ error ] [2]array_key_exists(): The first argument should be either a string or an integer
+---------------------------------------------------------------
+[ 2020-12-13T15:31:49+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/selectpage
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+---------------------------------------------------------------
+[ 2020-12-13T15:33:41+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/spotmanage/spotarea/selectpage
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'

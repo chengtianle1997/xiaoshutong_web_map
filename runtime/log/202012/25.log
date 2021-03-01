@@ -1,0 +1,72 @@
+---------------------------------------------------------------
+[ 2020-12-25T22:11:20+08:00 ] 0.0.0.0 POST dev-map/cVgRbDMLwW.php/command/command/action/execute
+[ error ] [0]语法解析错误: syntax error, unexpected '\' (T_NS_SEPARATOR), expecting identifier (T_STRING)
+---------------------------------------------------------------
+[ 2020-12-25T22:27:18+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/visitroute/index?addtabs=1&sort=id&order=desc&offset=0&limit=50&filter=%7B%7D&op=%7B%7D&_=1608906437994
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-25T22:27:19+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/visitroute/index?addtabs=1&sort=id&order=desc&offset=0&limit=50&filter=%7B%7D&op=%7B%7D&_=1608906437995
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-25T22:27:19+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/visitroute/index?addtabs=1&sort=id&order=desc&offset=0&limit=50&filter=%7B%7D&op=%7B%7D&_=1608906437996
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-25T22:27:19+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/visitroute/index?addtabs=1&sort=id&order=desc&offset=0&limit=50&filter=%7B%7D&op=%7B%7D&_=1608906437997
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-25T22:27:19+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/visitroute/index?addtabs=1&sort=id&order=desc&offset=0&limit=50&filter=%7B%7D&op=%7B%7D&_=1608906437998
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-25T22:27:20+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/visitroute/index?addtabs=1&sort=id&order=desc&offset=0&limit=50&filter=%7B%7D&op=%7B%7D&_=1608906437999
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-25T22:27:20+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/visitroute/index?addtabs=1&sort=id&order=desc&offset=0&limit=50&filter=%7B%7D&op=%7B%7D&_=1608906438000
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-25T22:27:20+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/visitroute/index?addtabs=1&sort=id&order=desc&offset=0&limit=50&filter=%7B%7D&op=%7B%7D&_=1608906438001
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-25T22:27:20+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/visitroute/index?addtabs=1&sort=id&order=desc&offset=0&limit=50&filter=%7B%7D&op=%7B%7D&_=1608906438002
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-25T22:27:21+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/visitroute/index?addtabs=1&sort=id&order=desc&offset=0&limit=50&filter=%7B%7D&op=%7B%7D&_=1608906438003
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-25T22:27:21+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/visitroute/index?addtabs=1&sort=id&order=desc&offset=0&limit=50&filter=%7B%7D&op=%7B%7D&_=1608906438004
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-25T22:27:21+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/visitroute/index?addtabs=1&sort=id&order=desc&offset=0&limit=50&filter=%7B%7D&op=%7B%7D&_=1608906438005
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-25T22:27:22+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/visitroute/index?addtabs=1&sort=id&order=desc&offset=0&limit=50&filter=%7B%7D&op=%7B%7D&_=1608906438006
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-25T22:27:22+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/visitroute/index?addtabs=1&sort=id&order=desc&offset=0&limit=50&filter=%7B%7D&op=%7B%7D&_=1608906438007
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-25T22:27:23+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/visitroute/index?addtabs=1&sort=id&order=desc&offset=0&limit=50&filter=%7B%7D&op=%7B%7D&_=1608906438008
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-25T22:27:23+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/visitroute/index?addtabs=1&sort=id&order=desc&offset=0&limit=50&filter=%7B%7D&op=%7B%7D&_=1608906438009
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-25T22:27:24+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/visitroute/index?addtabs=1&sort=id&order=desc&offset=0&limit=50&filter=%7B%7D&op=%7B%7D&_=1608906438010
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-25T22:27:24+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/visitroute/index?addtabs=1&sort=id&order=desc&offset=0&limit=50&filter=%7B%7D&op=%7B%7D&_=1608906438011
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-25T22:27:59+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/visitroute/index?addtabs=1&sort=id&order=desc&offset=0&limit=50&filter=%7B%7D&op=%7B%7D&_=1608906438012
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-25T22:34:49+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/visitroute/index?addtabs=1&sort=id&order=desc&offset=0&limit=50&filter=%7B%7D&op=%7B%7D&_=1608906722905
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-25T22:34:51+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/visitroute/index?addtabs=1&sort=id&order=desc&offset=0&limit=50&filter=%7B%7D&op=%7B%7D&_=1608906722906
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-25T22:34:51+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/visitroute/index?addtabs=1&sort=id&order=desc&offset=0&limit=50&filter=%7B%7D&op=%7B%7D&_=1608906722907
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found
+---------------------------------------------------------------
+[ 2020-12-25T22:34:51+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/visitroute/index?addtabs=1&sort=id&order=desc&offset=0&limit=50&filter=%7B%7D&op=%7B%7D&_=1608906722908
+[ error ] [0]致命错误: Class 'app\admin\model\Spotare' not found

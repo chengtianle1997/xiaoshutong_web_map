@@ -1,0 +1,886 @@
+    html,
+    body,
+    #container {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    body {
+        font-size: 0.28rem;
+    }
+    
+    .hidden {
+        display: none;
+    }
+    
+    .shade {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1000;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    html,
+    body,
+    div,
+    span,
+    input,
+    p,
+    ol,
+    ul,
+    li,
+    button,
+    textarea,
+    a {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        vertical-align: baseline;
+        background: transparent;
+        position: relative;
+        border-radius: 0;
+        box-shadow: none;
+        -webkit-font-smoothing: antialiased;
+    }
+    
+    input,
+    textarea,
+    select,
+    button {
+        font-size: 0.28rem;
+    }
+    
+    ul,
+    ol,
+    li {
+        list-style-type: none;
+    }
+    
+    .scroll {
+        overflow: hidden;
+    }
+    
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    .spot {
+        pointer-events: none;
+        text-align: center;
+    }
+    
+    .spot>div {
+        margin: auto;
+    }
+    
+    .spot .spot-name {
+        border: 1px solid gray;
+        border-radius: 0.42rem;
+        padding: 0 0.1rem;
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        white-space: nowrap;
+        pointer-events: auto;
+        z-index: 1;
+        padding: 2px;
+    }
+    
+    #container .amap-marker-label {
+        border: none;
+        background-color: transparent;
+    }
+    
+    .spot-line {
+        height: 0.16rem;
+        width: 0;
+        border-left: 1px solid gray;
+    }
+    
+    .amap-icon img {
+        width: 25px;
+        height: 30px;
+        background-size: 100%;
+        pointer-events: auto;
+        text-align: center;
+        line-height: 0.52rem;
+        font-size: 0.24rem;
+    }
+    
+    .spot-img img {
+        width: 0.5rem;
+        height: 0.6rem;
+        /* background: url(../img/audio/audio.png) center top no-repeat; */
+        background-size: 100%;
+        pointer-events: auto;
+        text-align: center;
+        line-height: 0.52rem;
+        font-size: 0.24rem;
+    }
+    
+    .amap-info-content {
+        border-radius: 0.1rem;
+        width: 2.2rem;
+        margin: auto;
+        background-color: #fff;
+        text-align: center;
+        border-radius: 0.1rem;
+        box-shadow: 0 0 0.1rem 0 #000;
+        padding: 0.1rem;
+    }
+    
+    .amap-info-close {
+        display: none;
+    }
+    
+    .spot-info {
+        width: 2.2rem;
+        height: 1.5rem;
+        margin: auto;
+        background-color: #fff;
+        text-align: center;
+        border-radius: 0.1rem;
+        box-shadow: 0 0 0.1rem 0 #000;
+        padding: 0.1rem;
+        z-index: 21;
+    }
+    
+    .spot-info-name {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        height: 0.6rem;
+        line-height: 0.6rem;
+    }
+    
+    .spot-info-btn {
+        overflow: hidden;
+        z-index: 1;
+    }
+    
+    .spot-info-btn>div {
+        float: left;
+        width: 50%;
+        border-radius: 0.08rem;
+        box-sizing: border-box;
+        background-color: #fff;
+        font-size: 0.24rem;
+        padding: 0.04rem;
+    }
+    
+    .spot-info-btn-single>div {
+        float: none;
+        width: 100%;
+        border-radius: 0.08rem;
+        box-sizing: border-box;
+        background-color: #fff;
+        font-size: 0.24rem;
+        padding: 0.04rem;
+    }
+    
+    .spot-speech:after {
+        content: '';
+        width: 1px;
+        height: 0.66rem;
+        background-color: #000;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    .spot-info-btn img,
+    .spot-info-btn-single img {
+        width: .44rem;
+    }
+    
+    .select-foot.show {
+        bottom: 0;
+    }
+    
+    .select-foot {
+        width: 100%;
+        height: 0.88rem;
+        line-height: 0.88rem;
+        position: absolute;
+        bottom: -100%;
+        z-index: 1002;
+        text-align: center;
+        left: 50%;
+        -webkit-transform: translate3d(-50%, 0, 0);
+        -moz-transform: translate3d(-50%, 0, 0);
+        transform: translate3d(-50%, 0, 0);
+        background-color: #ebebeb;
+        transition: all .3s;
+        font-size: 0.3rem;
+    }
+    
+    .select-foot>div {
+        float: left;
+        width: 33.3%;
+    }
+    
+    .select-foot>div>span {
+        display: inline-block;
+        padding-left: 0.4rem;
+    }
+    
+    .select-foot .foot-discovery>span:before {
+        background-position-x: 0;
+    }
+    
+    .select-foot .foot-line>span:before {
+        background-position-x: -1.1rem;
+    }
+    
+    .select-foot>div>span:before {
+        background: url(/assets/img/foot.png) center no-repeat;
+        background-size: 1.44rem 0.34rem;
+        width: 0.4rem;
+        height: 0.4rem;
+        display: block;
+        position: absolute;
+        top: 0.22rem;
+        left: 0;
+        content: '';
+    }
+    
+    .select-foot .foot-discovery:after,
+    .select-foot .foot-spot:after {
+        content: "";
+        position: absolute;
+        top: 0.2rem;
+        right: 0;
+        width: 1px;
+        height: 0.5rem;
+        background-color: #ccc;
+    }
+    /* 地理位置按钮 */
+    
+    .left-bottom-btns {
+        position: absolute;
+        left: -100%;
+        bottom: 2.1rem;
+        width: 0.6rem;
+        z-index: 999;
+        transition: all .3s;
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+    
+    .left-bottom-btns.show {
+        left: 0.2rem;
+    }
+    
+    .left-bottom-btns>div {
+        width: 0.7rem;
+        height: 0.7rem;
+    }
+    
+    .location-btn {
+		background: url(/assets/img/dingwei.png) center no-repeat;
+		background-size: 0.6rem;
+		background-color: #fff;
+		border-radius: 10px;
+		text-align: center;
+	}
+    
+    .location-btn:active {
+        /*background-image: url(/assets/img/location-btn-2.png);*/
+    }
+    
+    .slide-top,
+    .slide-bottom {
+        position: fixed;
+        width: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+        z-index: 1001;
+        background-color: rgba(255, 255, 255, 0.9);
+        transition: all .3s;
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+    
+    .slide-top {
+        height: 4.1rem;
+        top: -4.1rem;
+    }
+    
+    .slide-top.show {
+        top: 0;
+    }
+    
+    .slide-top.small {
+        top: -3.4rem;
+        height: 4.28rem;
+    }
+    
+    .slide-bottom {
+        height: 7rem;
+        bottom: -1000%;
+    }
+    
+    .slide-bottom.show {
+        bottom: 0.88rem;
+    }
+    
+    #discoveryPanel {
+        height: auto;
+    }
+    
+    .discovery-list {
+        overflow: hidden;
+        display: flex;
+        display: -webkit-flex;
+        justify-content: start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0.48rem 0.48rem 0 0.48rem;
+    }
+    
+    .discovery {
+        width: 25%;
+        height: 1.5rem;
+        text-align: center;
+        margin-bottom: 0.135rem;
+        margin-bottom: 0.455rem;
+    }
+    
+    .discovery .icon {
+        width: 0.82rem;
+        height: 0.82rem;
+        background: no-repeat center/100%;
+        margin: auto;
+    }
+    
+    .discovery .name {
+        font-size: 0.24rem;
+        color: #252525;
+        margin-top: 0.15rem;
+    }
+    
+    .border-bottom:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 1px;
+        width: 100%;
+        background-color: #ccc;
+    }
+    /* 点击高亮效果 */
+    
+    .active:before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: #ddd no-repeat center;
+        background-size: 100% 100%;
+        opacity: 0;
+        pointer-events: none;
+        -webkit-transition: opacity 600ms;
+        transition: opacity 600ms;
+    }
+    
+    .active:active:before {
+        opacity: 1;
+        -webkit-transition: opacity 150ms;
+        transition: opacity 150ms;
+    }
+    
+    input[type="search"] {
+        margin: auto;
+        border-radius: 0.1rem;
+        height: 0.56rem;
+        line-height: 0.56rem;
+        padding-left: 0.64rem;
+        background: #ddd url(/assets/img/search.png) 0.16rem center no-repeat;
+        background-size: 0.3rem;
+    }
+    
+    .spot-title {
+        text-align: center;
+        padding-bottom: 0.3rem;
+    }
+    
+    .spot-title>div {
+        width: 100%;
+        height: 0.88rem;
+        line-height: 0.88rem;
+        text-align: center;
+        font-size: 0.36rem;
+    }
+    
+    .spot-title>input {
+        width: 75%;
+    }
+    
+    .spot-content {
+        padding: 0 0.2rem;
+        line-height: 0.6rem;
+        overflow: hidden;
+        height: calc(100% - 1.76rem);
+        overflow-y: scroll;
+    }
+    
+    .spot-item {
+        padding: 0.16rem 0.1rem;
+        overflow: hidden;
+    }
+    
+    .spot-item>div {
+        float: left;
+    }
+    
+    .spot-item-left {
+        width: 1.9rem;
+        height: 1rem;
+    }
+    
+    .spot-item-left>img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .spot-item-right {
+        line-height: 0.3rem;
+        padding: 0.2rem 0;
+        margin-left: 0.16rem;
+        height: 1rem;
+        box-sizing: border-box;
+        max-width: calc(100% - 3.1rem);
+    }
+    
+    .spot-item-name {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 0.3rem;
+        line-height: 0.35rem;
+    }
+    
+    .spot-btn {
+        position: absolute;
+        right: 0.2rem;
+        top: 0.36rem;
+        width: 1rem;
+        height: 0.6rem;
+        line-height: 0.6rem;
+        text-align: center;
+        background: #22b5fe;
+        color: #fff;
+        letter-spacing: 0.08rem;
+        border-radius: 0.1rem;
+        text-indent: 0.08rem;
+        font-size: 0.3rem;
+    }
+    /* ====================================播放器================================================= */
+    
+    #playerPanel {
+        z-index: 1005;
+    }
+    
+    .player-bg {
+        height: 3.4rem;
+        font-size: 0;
+    }
+    
+    .player-bg>img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .player-control {
+        height: 0.7rem;
+        background-color: #272727;
+        overflow: hidden;
+    }
+    
+    .small .player-control {
+        height: 0.88rem;
+    }
+    
+    .player-control>div {
+        float: left;
+    }
+    
+    .player-switch {
+        background: url(/assets/img/player-switch-1.png) center no-repeat;
+        width: 0.7rem;
+        height: 100%;
+        background-size: 0.32rem;
+        margin: 0 0.1rem;
+    }
+    
+    .player-switch.playing {
+        background-image: url(/assets/img/player-switch-2.png);
+    }
+    
+    .player-schedule {
+        width: calc(100% - 3.5rem);
+        height: 100%;
+    }
+    
+    .player-bar {
+        height: 0.08rem;
+        background-color: #727272;
+        margin-top: -0.04rem;
+        top: 50%;
+    }
+    
+    .player-bar>div {
+        background-color: #90c34c;
+        width: 0;
+        height: 100%;
+    }
+    
+    .player-indicator {
+        height: 0.2rem;
+        width: 0.2rem;
+        background-color: #90c34c;
+        border-radius: 100%;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        margin: -0.2rem 0 0 -0.2rem;
+        padding: 0.1rem;
+        background-clip: content-box;
+    }
+    
+    .player-duration,
+    .player-current {
+        width: 0.74rem;
+        text-align: center;
+        line-height: 0.24rem;
+        font-size: 0.24rem;
+        color: #fff;
+        top: 50%;
+        margin: -0.12rem 0.1rem 0;
+    }
+    
+    .speach-name {
+        color: #000;
+        position: absolute;
+        top: 0.1rem;
+        left: 0.2rem;
+        /*background: rgba(255, 255, 255, 0.5);*/
+        /*border-radius: 3px;*/
+        text-shadow: 1px 1px 0px #fff;
+    }
+    
+    .player-toggle {
+        width: 0.7rem;
+        height: 100%;
+        background: url(/assets/img/player-toggle.png) center no-repeat;
+        background-size: 0.5rem;
+    }
+    
+    .slide-top.small .player-toggle {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    
+    .player-close {
+        position: absolute;
+        top: 0.1rem;
+        right: 0.1rem;
+        width: 0.6rem;
+        height: 0.6rem;
+        background: url(/assets/img/2@guanbi2.png) center no-repeat;
+        background-size: 0.6rem;
+    }
+    /* ====================================景点详情================================================= */
+    
+    .popup {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+    }
+    
+    .popup>div {
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 6rem;
+    }
+    
+    #spotInfoPanel>div {
+        width: calc(100% - 0.48rem);
+        height: calc(100% - 0.48rem);
+        background-color: #fff;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 0.2rem;
+        overflow-y: auto;
+    }
+    
+    .spot-info-title {
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+        height: 0.88rem;
+        line-height: 0.88rem;
+        font-size: 0.32rem;
+    }
+    
+    .spot-info-content {
+        box-sizing: border-box;
+        padding: 0.2rem;
+        line-height: 0.6rem;
+        overflow: hidden;
+        position: absolute;
+        top: 0.9rem;
+        bottom: 0;
+        width: 100%;
+        text-align: justify;
+    }
+    
+    .spot-info-content>div {
+        height: 100%;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    
+    #closeSpotInfoPanel {
+        position: absolute;
+        top: 0.14rem;
+        right: 0.14rem;
+        width: 0.6rem;
+        height: 0.6rem;
+        background: #eee url(/assets/img/Complaint-close.png) no-repeat center;
+        background-size: 0.3rem;
+        border: 2px solid #fff;
+        border-radius: 0.4rem;
+    }
+    
+    #linePanel {
+        max-height: 7rem;
+        height: auto;
+    }
+    
+    .slide-bottom-title {
+        height: 0.88rem;
+        line-height: 0.88rem;
+        text-align: center;
+        font-size: 0.36rem;
+    }
+    
+    .slide-bottom-content {
+        padding: 0 0.3rem;
+        height: calc(100% - 0.9rem);
+    }
+    
+    #linePanel .line {
+        color: #666;
+        overflow: hidden;
+        line-height: 0.48rem;
+        padding: 0.1rem 0 0.2rem 0.7rem;
+        background: url(/assets/img/navigation-item.png) left top no-repeat;
+        background-size: 0.6rem;
+        font-size: 0.24rem;
+    }
+    
+    #linePanel .route-name {
+        width: calc(100% - 1rem);
+        font-size: 0.3rem;
+    }
+    
+    #linePanel .route-distance {
+        width: 2rem;
+        float: left;
+    }
+    
+    #linePanel .route-time {
+        width: calc(100% - 3rem);
+        float: left;
+    }
+    
+    #linePanel .route-btn {
+        width: 1rem;
+        height: 0.6rem;
+        line-height: 0.6rem;
+        background-color: #f29e15;
+        color: #fff;
+        position: absolute;
+        top: 0.32rem;
+        right: 0.1rem;
+        text-align: center;
+        border-radius: 0.1rem;
+        font-size: 0.3rem;
+    }
+    
+    #linePanel .route-btn.selected {
+        background-color: #1cc7f2;
+    }
+    
+    #linePanel .route-btn:after {
+        content: '前往';
+    }
+    
+    #linePanel .route-btn.selected:after {
+        content: '关闭';
+    }
+    
+    .vip-btn {
+        background:url(/assets/img/caidan-2.png) no-repeat 50% 50%;
+        position: absolute;
+        top: 1.1rem;
+        right: 0.2rem;
+        width: 0.75rem;
+        height: 0.75rem;
+        z-index: 999;
+        background-size: 80%;
+        border-radius: 10px;
+        transition: all .3s;
+		background-color:#fff;
+    }
+
+    .smart-btn {
+        background:url(/assets/img/caidan-2.png) no-repeat 50% 50%;
+        position: absolute;
+        top: 1.1rem;
+        left: 0.2rem;
+        width: 0.75rem;
+        height: 0.75rem;
+        z-index: 999;
+        background-size: 80%;
+        border-radius: 10px;
+        transition: all .3s;
+		background-color:#fff;
+    }
+    
+    .slide-right {
+        position: fixed;
+        width: 4rem;
+        top: 0;
+        right: -4rem;
+        bottom: 0.88rem;
+        background-color: rgba(255, 255, 255, 0.9);
+        z-index: 1006;
+        transition: all .3s;
+        font-size: 0.3rem;
+        -webkit-transform: translate3d(0, 0, 0);
+        overflow: hidden;
+    }
+    
+    .slide-right.show {
+        right: 0;
+    }
+    
+    .slide-right .slide-right-option>div {
+        height: 0.74rem;
+        line-height: 0.74rem;
+        margin: 0.2rem 0.2rem 0 0.32rem;
+        background: 0.08rem center no-repeat, calc(100% - 0.1rem) center no-repeat;
+        background-size: 0.4rem, 0.2rem;
+        padding-left: 0.6rem;
+    }
+    
+    .autoplay_block {
+        background-image: url(/assets/img/auto-play-voice.png);
+        height: 0.74rem;
+        line-height: 0.74rem;
+        margin: 0 0.2rem 0 0.32rem;
+        background: 0.08rem center no-repeat, calc(100% - 0.1rem) center no-repeat;
+        background-size: 0.4rem, 0.2rem;
+        padding-left: 0.6rem;
+    }
+    
+    .slide-right .slide-right-option>div:nth-child(1) {
+        background-image: url(/assets/img/auto-play-voice.png);
+    }
+    
+    .slide-right .slide-right-option>div:nth-child(2) {
+        background-image: url(/assets/img/custom.png);
+    }
+    
+    .slide-right .slide-right-option>div {
+        height: 0.74rem;
+        line-height: 0.74rem;
+        margin: 0 0.2rem 0 0.32rem;
+        background: 0.08rem center no-repeat, calc(100% - 0.1rem) center no-repeat;
+        background-size: 0.4rem, 0.2rem;
+        padding-left: 0.6rem;
+    }
+    
+    .slide-right .slide-right-option>div:after,
+    .slide-right .vip-title:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 1px;
+        width: 100%;
+        background-color: #ccc;
+    }
+    
+    .custom_block a {
+        color: #000;
+        text-decoration: none;
+    }
+    
+    .al-toggle-button {
+        -webkit-appearance: none;
+        width: 0.7rem;
+        height: 0.42rem;
+        background: #dfdfdf;
+        border-radius: 0.24rem;
+        border: 1px solid #dfdfdf;
+        outline: 0;
+        box-sizing: border-box;
+        float: right;
+        top: 0.16rem;
+    }
+    
+    .al-toggle-button:checked {
+        border-color: #04be02;
+        background-color: #04be02;
+    }
+    
+    .al-toggle-button:before {
+        width: 0.68rem;
+        background-color: #fdfdfd;
+    }
+    
+    .al-toggle-button:after {
+        width: 0.38rem;
+        background-color: white;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    }
+    
+    .al-toggle-button:before,
+    .al-toggle-button:after {
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 0.38rem;
+        border-radius: 0.24rem;
+        transition: transform 0.3s;
+        transition: -webkit-transform 0.3s;
+        transition: transform 0.3s, -webkit-transform 0.3s;
+        -webkit-transition: -webkit-transform 0.3s;
+    }
+    
+    .al-toggle-button:checked:before {
+        transform: scale(0);
+        -webkit-transform: scale(0);
+    }
+    
+    .al-toggle-button:checked:after {
+        transform: translate3d(0.32rem, 0, 0);
+        -webkit-transform: translate3d(0.32rem, 0, 0);
+    }

@@ -1,0 +1,15 @@
+---------------------------------------------------------------
+[ 2020-12-10T23:54:42+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotarea/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1607615681692
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fa_spotarea.deletetime' in 'where clause'
+---------------------------------------------------------------
+[ 2020-12-10T23:54:45+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotarea/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1607615681693
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fa_spotarea.deletetime' in 'where clause'
+---------------------------------------------------------------
+[ 2020-12-10T23:54:45+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotarea/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1607615681694
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fa_spotarea.deletetime' in 'where clause'
+---------------------------------------------------------------
+[ 2020-12-10T23:54:46+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotarea/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1607615681695
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fa_spotarea.deletetime' in 'where clause'
+---------------------------------------------------------------
+[ 2020-12-10T23:54:46+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotarea/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1607615681696
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fa_spotarea.deletetime' in 'where clause'

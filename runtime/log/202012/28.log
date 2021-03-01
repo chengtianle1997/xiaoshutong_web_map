@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2020-12-28T00:01:39+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spotare/selectpage/
+[ error ] [2]array_key_exists(): The first argument should be either a string or an integer
+---------------------------------------------------------------
+[ 2020-12-28T00:01:41+08:00 ] 0.0.0.0 GET dev-map/cVgRbDMLwW.php/spotmanage/spotare/selectpage
+[ error ] [2]array_key_exists(): The first argument should be either a string or an integer

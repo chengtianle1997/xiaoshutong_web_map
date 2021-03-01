@@ -1,0 +1,12 @@
+---------------------------------------------------------------
+[ 2021-01-15T14:48:59+08:00 ] 58.219.126.31 GET zhjq.g2world.cn/api/spot/getSpotInfo?id=1
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2021-01-15T14:49:09+08:00 ] 58.219.126.31 GET zhjq.g2world.cn/api/spot/getSpotInfo?id=1
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2021-01-15T14:49:20+08:00 ] 58.219.126.31 GET zhjq.g2world.cn/api/spot/getSpotInfo?id=1
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2021-01-15T14:49:36+08:00 ] 58.219.126.31 GET zhjq.g2world.cn/index.php/api/spot/getSpotInfo?id=1
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
